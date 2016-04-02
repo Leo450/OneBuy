@@ -1,0 +1,65 @@
+form{
+    padding:2.5em;
+
+    background-color:#2F2F2F;
+
+    color:white;
+}
+
+form fieldset{
+    margin-top:20px;
+    padding:0;
+}
+form fieldset:first-child{
+    margin-top:0;
+}
+
+form .form-title, form legend{
+    text-transform:uppercase;
+    font-weight:bold;
+}
+form .form-title{
+    margin:1em 0 2em 0;
+
+    text-align:center;
+}
+form legend{
+    padding-bottom:0.5em;
+}
+form legend .round-icon{
+    margin-right:5px;
+}
+
+.form-group input, form button{
+    width:100%;
+    padding:10px;
+    margin-bottom:3px;
+
+    background-color:#444;
+
+    font-family:'Lato', sans-serif;
+    font-size:0.8em;
+    color:white;
+
+    outline:none;
+}
+.form-group input{
+    border-bottom:0 solid white;
+}
+.form-group input:focus{
+    padding-bottom:9px;
+    border-bottom-width:1px;
+}
+
+form button{
+    position:relative;
+    float:right;
+
+    width:auto;
+    padding:10px 40px;
+    margin-top:10px;
+
+    font-size:1em;
+
+    border:none;
+}

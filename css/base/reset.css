@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padggin:0;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+fieldset{
+    border:none;
+}
+input{
+    border:none;
+}

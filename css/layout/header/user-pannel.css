@@ -1,0 +1,12 @@
+.user-pannel{
+    position:absolute;
+    right:0;
+    height:100%;
+}
+.user-pannel a{
+    color:white;
+}
+.user-pannel a p{
+    display:inline;
+    margin-left:5px;
+}
