@@ -1,0 +1,15 @@
+.round-icon{
+    display:inline-block;
+    width:40px;
+    height:40px;
+
+    text-align:center;
+    font-size:1.5em;
+    color:#d3c7a9;
+    text-shadow:0 0 5px black;
+
+    background-color:#3B3C41;
+    border-radius:50%;
+
+    vertical-align:middle;
+}

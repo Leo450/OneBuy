@@ -1,0 +1,65 @@
+.user-pannel{
+    position:absolute;
+    right:0;
+    height:100%;
+}
+.user-pannel-link{
+    position:relative;
+    margin-left:2em;
+
+    color:#d3c7a9;
+
+    cursor:pointer;
+}
+.user-pannel-link p{
+    display:inline;
+    margin-left:5px;
+}
+
+.user-pannel-tooltip{
+    display:none;
+    position:absolute;
+    width:0;
+    top:60px;
+    left:50%;
+
+    z-index:2;
+}
+.user-pannel-tooltip-menu{
+    position:relative;
+    width:200px;
+    left:-100px;
+
+    border:1px solid #937341;
+}
+.user-pannel-tooltip-menu:after, .user-pannel-tooltip-menu:before{
+    content:'';
+    position:absolute;
+    width:15px;
+    height:1px;
+    top:-15px;
+    left:50%;
+    margin-left:-2px;
+
+    background-color:#937341;
+
+    transform:rotate(45deg);
+}
+.user-pannel-tooltip-menu:before{
+    margin-left:-13px;
+
+    transform:rotate(-45deg);
+}
+.user-pannel-tooltip-menu a{
+    display:block;
+    padding:1em;
+
+    border-bottom:1px solid #1f1f23;
+
+    background-color:#07070a;
+
+    text-align:center;
+}
+.user-pannel-tooltip-menu li:last-child a{
+    border-bottom:none;
+}

@@ -1,0 +1,49 @@
+.l-header{
+    padding:1em 0;
+
+    border-bottom:1px solid #937341;
+
+    background-color:#15161A;
+    color:#d3c7a9;
+}
+.l-header > .container{
+    position:relative;
+}
+
+/* LOGO */
+.logo{
+    position:relative;
+}
+.logo i{
+    font-size:6em;
+    color:#937341;
+}
+.logo .number, .logo .text{
+    position:absolute;
+}
+.logo .number{
+    top:36%;
+    left:20%;
+
+    color:#15161A;
+    font-family:'Oswald';
+    font-size:2em;
+    font-weight:bold;
+
+    transform:skew(0deg, 30deg);
+}
+.logo .text{
+    top:10%;
+    left:125%;
+
+    font-family:'beaufort';
+    font-size:3.5em;
+    font-weight:bold;
+    letter-spacing:.25em;
+    text-shadow:0 0 5px black;
+
+    white-space:nowrap;
+}
+.logo .text .small{
+    font-size:.6em;
+}

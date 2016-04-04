@@ -1,15 +1,12 @@
 <form action="">
-    <h2 class="form-title">Register</h2>
+    <h2 class="form-title">
+        <span class="form-title-wrap">
+            Register
+        </span>
+    </h2>
     <fieldset>
         <legend>
-            <div class="round-icon">
-                <div class="v-align-outer">
-                    <div class="v-align-inner">
-                        <i class="fa fa-user"></i>
-                    </div>
-                </div>
-            </div>
-            User informations
+            <i class="fa fa-angle-right"></i> User informations
         </legend>
         <div class="form-group">
             <input type="email" name="email" placeholder="Email"/>
@@ -20,14 +17,7 @@
     </fieldset>
     <fieldset>
         <legend>
-            <div class="round-icon">
-                <div class="v-align-outer">
-                    <div class="v-align-inner">
-                        <i class="fa fa-credit-card"></i>
-                    </div>
-                </div>
-            </div>
-            Billing address
+            <i class="fa fa-angle-right"></i> Billing address
         </legend>
         <div class="form-group">
             <input type="text" name="country1" placeholder="Country"/>
@@ -44,14 +34,7 @@
     </fieldset>
     <fieldset>
         <legend>
-            <div class="round-icon">
-                <div class="v-align-outer">
-                    <div class="v-align-inner">
-                        <i class="fa fa-truck"></i>
-                    </div>
-                </div>
-            </div>
-            Shipping address
+            <i class="fa fa-angle-right"></i> Shipping address
         </legend>
         <div class="form-group">
             <input type="text" name="country2" placeholder="Country"/>
@@ -66,6 +49,6 @@
             <input type="text" name="streetline2-2" placeholder="Streetline (bis)"/>
         </div>
     </fieldset>
-    <button type="submit">Send</button>
+    <button type="submit" class="button">Send</button>
     <span class="clear"></span>
 </form>

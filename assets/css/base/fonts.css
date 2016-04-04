@@ -1,0 +1,23 @@
+/* DEFINE */
+@font-face {
+    font-family: 'beaufort';
+    src: url('../../fonts/beaufortforlol-regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'beaufort';
+    src: url('../../fonts/beaufortforlol-bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* SET */
+body{
+    font-family:'beaufort', sans-serif;
+    font-size:.9em;
+    color:#d3c7a9;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:'beaufort', sans-serif;
+}
