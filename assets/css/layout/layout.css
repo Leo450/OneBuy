@@ -5,3 +5,10 @@ body{
 .l-body{
     margin-top:40px;
 }
+
+.page-title{
+    margin-bottom:1em;
+
+    color:#937341;
+    text-transform:uppercase;
+}

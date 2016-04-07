@@ -1,0 +1,21 @@
+.product-table{
+    padding-top:9.5em;
+}
+
+.product-table-row{
+    padding:.25em 0;
+
+    border-bottom:1px solid #3b3225;
+}
+.product-table-row:last-child{
+    border:none;
+}
+
+.product-table-rows, .product-table-form{
+    transition:opacity .5s ease;
+}
+.product-table-form .form-title{
+    margin-bottom:3em;
+
+    font-size:1.25em;
+}

@@ -10,8 +10,9 @@
 @import 'modules/positioning/v-align.css';
 @import 'modules/elements/round-icon.css';
 @import 'modules/elements/button.css';
+@import 'modules/elements/form.css';
 @import 'modules/widgets/widget-product.css';
-@import 'modules/widgets/widget-user-form.css';
 @import 'modules/widgets/widget-gradient-frame.css';
 
 @import 'pages/product.css';
+@import 'pages/my-product-list.css';

@@ -1,45 +1,11 @@
-.product-frame{
-    margin:3em 0;
-}
-
 .product-frame img{
     max-width:100%;
 }
-.product-name, .product-price, .product-buy-button{
-    position:absolute;
-    top:0;
-    left:0;
-    padding:2em 2.5em;
 
-    border:solid 1px #3b3225;
-
-    background-color:rgba(21, 22, 26, .8);
-
-    color:#937341;
-    font-size:1.25em;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:.2em;
-    text-shadow:0 0 5px black;
-}
-.product-price, .product-buy-button{
-    left:auto;
-    right:0;
-
-    background-color:rgba(21, 22, 26, .4);
-}
 .product-description{
     padding:0 4em 6em 4em;
 
     text-align:center;
     font-size:1.1em;
     letter-spacing:.07em;
-}
-.product-buy-button{
-    left:100%;
-    right:auto;
-
-    padding:2em;
-
-    border-left:none;
 }
