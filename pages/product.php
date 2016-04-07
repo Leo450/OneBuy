@@ -1,14 +1,14 @@
-<?php include 'data/products.php' ?>
+<?php include 'data/goods.php' ?>
 
-<div class="product-frame widget-gradient-frame">
+<div class="good-frame widget-gradient-frame">
     <div class="h-lines"></div>
     <div class="v-lines"></div>
-    <img src="<?php echo $products[0]['img'] ?>"/>
+    <img src="<?php echo $goods[0]['img'] ?>"/>
     <h3 class="widget-gradient-frame-window top-left">
-        <?php echo $products[0]['name'] ?>
+        <?php echo $goods[0]['name'] ?>
     </h3>
     <div class="widget-gradient-frame-window top-right">
-        <?php echo $products[0]['price'] ?> RP
+        <?php echo $goods[0]['price'] ?> RP
     </div>
     <div class="widget-gradient-frame-window top-right-after">
         Auction selling <i class="fa fa-legal"></i>
@@ -20,6 +20,6 @@
         <i class="fa fa-cart-arrow-down"></i>
     </a>
 </div>
-<div class="product-description">
-    <p><?php echo $products[0]['description'] ?></p>
+<div class="good-description">
+    <p><?php echo $goods[0]['description'] ?></p>
 </div>

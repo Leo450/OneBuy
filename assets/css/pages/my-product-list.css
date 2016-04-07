@@ -1,20 +1,20 @@
-.product-table{
+.good-table{
     padding-top:9.5em;
 }
 
-.product-table-row{
+.good-table-row{
     padding:.25em 0;
 
     border-bottom:1px solid #3b3225;
 }
-.product-table-row:last-child{
+.good-table-row:last-child{
     border:none;
 }
 
-.product-table-rows, .product-table-form{
+.good-table-rows, .good-table-form{
     transition:opacity .5s ease;
 }
-.product-table-form .form-title{
+.good-table-form .form-title{
     margin-bottom:3em;
 
     font-size:1.25em;

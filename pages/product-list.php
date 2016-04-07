@@ -1,9 +1,9 @@
-<?php include 'data/products.php' ?>
+<?php include 'data/goods.php' ?>
 
 <div class="row">
-    <?php foreach($products as $key => $product){ ?>
+    <?php foreach($goods as $key => $good){ ?>
         <div class="col-lg-3">
-            <?php include 'templates/product-list/widget-product.php' ?>
+            <?php include 'templates/good-list/widget-good.php' ?>
         </div>
         <?php if(($key + 1)%4 == 0){ ?>
             <span class="clear"></span>

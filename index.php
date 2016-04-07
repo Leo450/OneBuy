@@ -1,5 +1,17 @@
-<!doctype html>
-<html lang="fr">
+<?php
+$logged = true;
+
+$pages = [
+    'login',
+    'good-list',
+    'good',
+    'my-good-list'
+];
+$page = $pages[3];
+?>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>OneBuy</title>
@@ -8,7 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
 </head>
 <body>
 
@@ -17,7 +29,7 @@
         <?php include 'templates/layout/header.php'; ?>
 
         <div class="l-body container">
-            <?php include 'login.php'; ?>
+            <?php include 'pages/' . $page . '.php'; ?>
         </div>
 
     </div>

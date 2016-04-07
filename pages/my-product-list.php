@@ -1,6 +1,6 @@
-<?php include 'data/products.php' ?>
+<?php include 'data/goods.php' ?>
 
-<div class="product-table widget-gradient-frame">
+<div class="good-table widget-gradient-frame">
     <div class="h-lines"></div>
     <div class="v-lines"></div>
     <div class="widget-gradient-frame-window top-left">
@@ -10,25 +10,25 @@
         <i class="fa fa-plus toggle-icon"></i>
     </a>
 
-    <div class="product-table-rows" style="display:block;opacity:1;">
-        <?php foreach($products as $key => $product){ ?>
-            <div class="product-table-row">
+    <div class="good-table-rows" style="display:block;opacity:1;">
+        <?php foreach($goods as $key => $good){ ?>
+            <div class="good-table-row">
                 <div class="row">
                     <div class="col-lg-4">
-                        <?php echo $product['name']; ?>
+                        <?php echo $good['name']; ?>
                     </div>
                     <div class="col-lg-4">
-                        <?php echo $product['price']; ?> RP
+                        <?php echo $good['price']; ?> RP
                     </div>
                     <div class="col-lg-4">
-                        <i class="fa fa-<?php if($product['strategy_id'] == 1){ echo 'legal'; }else{ echo 'sign-in'; } ?>"></i>
+                        <i class="fa fa-<?php if($good['strategy_id'] == 1){ echo 'legal'; }else{ echo 'sign-in'; } ?>"></i>
                     </div>
                 </div>
             </div>
         <?php } ?>
     </div>
 
-    <div class="product-table-form" style="display:none;opacity:0;">
+    <div class="good-table-form" style="display:none;opacity:0;">
         <form action="">
             <div class="form-group-hidden">
                 <input type="radio" class="form-input-radio" name="strategy_id" value="1"/>
@@ -95,7 +95,7 @@
 
 <script type="text/javascript">
 
-    /* TOGGLE PRODUCT TABLE PANNEL */
+    /* TOGGLE good TABLE PANNEL */
 
     function fadeOut(element, callback){
         isAnimationRunning = true;
@@ -130,24 +130,24 @@
 
     var isAnimationRunning = false,
         linkAddGood = document.getElementsByClassName('link-add-good')[0],
-        productTableRows = document.getElementsByClassName('product-table-rows')[0],
-        productTableForm = document.getElementsByClassName('product-table-form')[0],
+        goodTableRows = document.getElementsByClassName('good-table-rows')[0],
+        goodTableForm = document.getElementsByClassName('good-table-form')[0],
         icon = document.getElementsByClassName('toggle-icon')[0];
 
     linkAddGood.addEventListener('click', function(){
         if(isAnimationRunning)
             return;
 
-        if(productTableRows.style.display == 'block'){
+        if(goodTableRows.style.display == 'block'){
             icon.className = icon.className.replace('plus', 'bars');
-            fadeOut(productTableRows, function(){
-                fadeIn(productTableForm);
+            fadeOut(goodTableRows, function(){
+                fadeIn(goodTableForm);
             });
 
         }else{
             icon.className = icon.className.replace('bars', 'plus');
-            fadeOut(productTableForm, function(){
-                fadeIn(productTableRows);
+            fadeOut(goodTableForm, function(){
+                fadeIn(goodTableRows);
             });
         }
     });
