@@ -23,3 +23,5 @@
 <div class="good-description">
     <p><?php echo $goods[0]['description'] ?></p>
 </div>
+
+<script type="text/javascript" src=""></script>
